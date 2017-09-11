@@ -1,5 +1,0 @@
-#!/bin/bash
-svn st | grep "?" | awk '{print $2}' > .svnadd.log
-vim .svnadd.log
-svn add `cat .svnadd.log`
-

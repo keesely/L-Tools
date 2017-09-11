@@ -1,3 +1,0 @@
-#!/bin/bash
-
-svn propedit svn:ignore $1

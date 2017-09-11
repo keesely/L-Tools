@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*************************************************************************
+ * @fileName css/preview.css
+ * @author Kee <chinboy2012@gmail.com> 2016年10月22日 星期六 19时51分41秒
+ * ***********************************************************************/
+body {padding: 40px;}
+
+#layout {
+	margin-right: 310px;
+}
+#container {
+	width: 100%;
+}
+#layout > header, .btns {
+	width: auto;
+}
+
+#sidebar {
+	width: 300px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	background: #fff;
+	z-index: 100;
+	/*padding: 18px; */
+	/*border: 1px solid #ddd;*/
+	/*border-top: none;*/
+	/*border-bottom: none;*/
+}
+
+#sidebar:hover {
+	overflow: auto;
+}
+
+#sidebar h1 {
+	font-size: 16px;
+}
+
+#custom-toc-container {
+	padding-left: 0;
+}
+
+#test-editormd-view, #test-editormd-view2 {
+	padding-left: 0;
+	/*padding-right: 430px;*/
+	margin: 0;
+}
+
+#sidebar {
+	display:block;
+	margin:15px 0;
+
+}
+
+#sidebar ul li ul {
+	border-left:2px dashed #ddd;
+}
+
+#sidebar ul li {
+	width:100%;
+	line-height:20px;
+	font-weight:narmal;
+	list-style: none;
+}
+
+#sidebar ul li b {
+	width:8px;
+	height:8px;
+	background:#fff;
+	border:2px solid #555;
+	margin:5px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	overflow:hidden;
+	display:inline-block;
+	float:left;
+}
+
+#sidebar ul li span {
+	padding-left:7px;
+	font-size:12px;
+	line-height:20px;
+	color:#555;
+}
+
+#sidebar ul li:hover b {
+	border:2px solid #ff6600;
+}
+
+#sidebar ul li:hover span {
+	color:#ff6600;
+}
+
+#sidebar ul li p {
+	padding-left:15px;
+	font-size:14px;
+	line-height:25px;
+}
+

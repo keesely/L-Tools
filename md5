@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+if (1 > count($argv)) exit("请输入要验证的字符串\r\n");
+echo md5($argv[1]) . "\r\n";
